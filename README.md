@@ -4,10 +4,10 @@
 
 * 1. 先安装Jupyter环境
 * 2. 修改默认工作路径
- ···Java
+```
    1）先确定配置文件的路径，通过jupyter notebook --generate-config命令
    2）修改参数c.NotebookApp.notebook_dir = '存放的代码根路径'
- ···
+```
 * 3. 修改Jupyter样式
    jt -t grade3 -f fira  -fs 13 -ofs 11 -dfs 11 -cellw 88% -T
    jt -t grade3 -f fira  -fs 14 -ofs 13 -dfs 13 -T
